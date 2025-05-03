@@ -1,0 +1,15 @@
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\bin\Debug\net9.0\MoreThenHelloWorld.exe
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\bin\Debug\net9.0\MoreThenHelloWorld.deps.json
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\bin\Debug\net9.0\MoreThenHelloWorld.runtimeconfig.json
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\bin\Debug\net9.0\MoreThenHelloWorld.dll
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\bin\Debug\net9.0\MoreThenHelloWorld.pdb
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\obj\Debug\net9.0\MoreThenHelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\obj\Debug\net9.0\MoreThenHelloWorld.AssemblyInfoInputs.cache
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\obj\Debug\net9.0\MoreThenHelloWorld.AssemblyInfo.cs
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\obj\Debug\net9.0\MoreThenHelloWorld.csproj.CoreCompileInputs.cache
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\obj\Debug\net9.0\MoreThenHelloWorld.sourcelink.json
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\obj\Debug\net9.0\MoreThenHelloWorld.dll
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\obj\Debug\net9.0\refint\MoreThenHelloWorld.dll
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\obj\Debug\net9.0\MoreThenHelloWorld.pdb
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\obj\Debug\net9.0\MoreThenHelloWorld.genruntimeconfig.cache
+D:\Projects\C-Sharp-Projects\MoreThenHelloWorld\obj\Debug\net9.0\ref\MoreThenHelloWorld.dll
