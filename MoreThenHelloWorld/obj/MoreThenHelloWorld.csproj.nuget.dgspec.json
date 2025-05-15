@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj": {}
+    "D:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj": {}
   },
   "projects": {
-    "d:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj": {
+    "D:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj",
+        "projectUniqueName": "D:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj",
         "projectName": "MoreThenHelloWorld",
-        "projectPath": "d:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj",
+        "projectPath": "D:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj",
         "packagesPath": "C:\\Users\\Gabri\\.nuget\\packages\\",
-        "outputPath": "d:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\obj\\",
+        "outputPath": "D:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
