@@ -19,22 +19,11 @@ namespace MoreThenHelloWorld
             // Output a welcome message and the main menu options.
             Console.WriteLine("Welcome to the File App!");
             Console.WriteLine("1. Create File");
-            //Console.WriteLine("2. Read File");
-            //Console.WriteLine("3. Write File");
-            //Console.WriteLine("4. Delete File");
-            //Console.WriteLine("5. Open File");
-            //Console.WriteLine("6. Save File");
-            //Console.WriteLine("7. Close File");
-            //Console.WriteLine("8. Edit File");
-            //Console.WriteLine("9. Search File");
-            //Console.WriteLine("10. Replace File");
-            //Console.WriteLine("11. Print File");
-            //Console.WriteLine("12. Print File Content");
-            //Console.WriteLine("13. Print File Name");
-            //Console.WriteLine("14. Print File Path");
-            //Console.WriteLine("15. Print File Size");
-            //Console.WriteLine("16. Print File Type");
-            //Console.WriteLine("17. Print File Date");
+            Console.WriteLine("2. Read File");
+            Console.WriteLine("3. Write File");
+            Console.WriteLine("4. Append to File");
+            Console.WriteLine("5. Edit File");
+            Console.WriteLine("6. Delete File");
             Console.WriteLine("Q. Exit");
             Console.Write("Please select an option: ");
             // Get user input and store it as a string.
@@ -46,6 +35,31 @@ namespace MoreThenHelloWorld
                 case "1":
                     // Call the CreateFile method to create a file.
                     CreateFile();
+                    break;
+                case "2":
+                    // Call the ReadFile method to read a file.
+                    // This method is a placeholder for file reading logic.
+                    ReadFile();
+                    break;
+                case "3":
+                    // Call the WriteFile method to write a file.
+                    // This method is a placeholder for file writing logic.
+                    WriteFile();
+                    break;
+                case "4":
+                    // Call the AppendFile method to append to a file.
+                    // This method is a placeholder for file appending logic.
+                    AppendFile();
+                    break;
+                case "5":
+                    // Call the EditFile method to edit a file.
+                    // This method is a placeholder for file editing logic.
+                    EditFile();
+                    break;
+                case "6":
+                    // Call the DeleteFile method to delete a file.
+                    // This method is a placeholder for file deletion logic.
+                    DeleteFile();
                     break;
                 case "Q":
                     // print Goodbye! and exit the application.
@@ -124,6 +138,125 @@ namespace MoreThenHelloWorld
             Console.WriteLine("Creating a file...");
             fileTools.CreateFile(fileName, filePath);
             Console.WriteLine("\n", Console.ForegroundColor = ConsoleColor.White);
+        }
+        // It prompts the user for a file location and then reads the file.
+        private static void ReadFile()
+        {
+            // Setting up variables
+            var fileTools = new FileTools();
+            string fileLocation;
+
+            ClearConsole();
+            // Output a welcome message and the file reading options.
+            Console.WriteLine("Welcome to the File Reading App!\n");
+            Console.WriteLine("***** File location *****");
+            Console.Write("Enter the file location: ");
+            fileLocation = Console.ReadLine() ?? string.Empty;
+
+            // Read a file.
+            Console.WriteLine("Reading a file...");
+            fileTools.ReadFile(fileLocation);
+            Console.WriteLine("\n", Console.ForegroundColor = ConsoleColor.White);
+        }
+        public void WriteFile()
+        {
+            // Setting up variables
+            var fileTools = new FileTools();
+            string fileLocation;
+            string fileContent;
+
+            ClearConsole();
+            // Output a welcome message and the file writing options.
+            Console.WriteLine("Welcome to the File Writing App!\n");
+            Console.WriteLine("***** File location *****");
+            Console.Write("Enter the file location: ");
+            fileLocation = Console.ReadLine() ?? string.Empty;
+
+            // ask the user for the file content.
+            Console.WriteLine("***** File content *****");
+            Console.Write("Enter the file content: ");
+            fileContent = Console.ReadLine() ?? string.Empty;
+
+            // Write a file.
+            Console.WriteLine("Writing a file...");
+            fileTools.WriteFile(fileLocation, fileContent);
+            Console.WriteLine("\n", Console.ForegroundColor = ConsoleColor.White);
+        }
+        public static void EditFile()
+        {
+            // Setting up variables
+            var fileTools = new FileTools();
+            string fileLocation;
+            string TextObject;
+            string newValue;
+
+            ClearConsole();
+            // Output a welcome message and the file editing options.
+            Console.WriteLine("Welcome to the Sellected Text Editing App!\n");
+            Console.WriteLine("***** File location *****");
+            Console.Write("Enter the file location: ");
+            fileLocation = Console.ReadLine() ?? string.Empty;
+
+            // ask the user for the file content.
+            Console.WriteLine("***** File content *****");
+            Console.Write("Enter the selected text: ");
+            TextObject = Console.ReadLine() ?? string.Empty;
+            Console.WriteLine("Enter the new value: ");
+            newValue = Console.ReadLine() ?? string.Empty;
+
+            // Edit a file.
+            Console.WriteLine("Editing a file...");
+            fileTools.EditTextValueOfAFile(fileLocation, TextObject,newValue);
+            Console.WriteLine("\n", Console.ForegroundColor = ConsoleColor.White);
+        }
+        public static void DeleteFile()
+        {
+            // Setting up variables
+            var fileTools = new FileTools();
+            string fileLocation;
+
+            ClearConsole();
+            // Output a welcome message and the file deletion options.
+            Console.WriteLine("Welcome to the File Deletion App!\n");
+            Console.WriteLine("***** File location *****");
+            Console.Write("Enter the file location: ");
+            fileLocation = Console.ReadLine() ?? string.Empty;
+
+            // Delete a file.
+            Console.WriteLine("Deleting a file...");
+            fileTools.DeleteFile(fileLocation);
+            Console.WriteLine("\n", Console.ForegroundColor = ConsoleColor.White);
+        }
+        public static void AppendFile()
+        {
+            // Setting up variables
+            var fileTools = new FileTools();
+            string fileLocation;
+            string fileContent;
+
+            ClearConsole();
+            // Output a welcome message and the file appending options.
+            Console.WriteLine("Welcome to the File Appending App!\n");
+            Console.WriteLine("***** File location *****");
+            Console.Write("Enter the file location: ");
+            fileLocation = Console.ReadLine() ?? string.Empty;
+
+            // ask the user for the file content.
+            Console.WriteLine("***** File content *****");
+            Console.Write("Enter the file content: ");
+            fileContent = "\n" + Console.ReadLine() ?? string.Empty;
+
+            // Append to a file.
+            Console.WriteLine("Appending to a file...");
+            fileTools.AppendToFile(fileLocation, fileContent);
+            Console.WriteLine("\n", Console.ForegroundColor = ConsoleColor.White);
+        }
+        public static void TempFileLastAccess()
+        {
+            // file open temp file
+            // display the last access time
+            // output options 
+            // close the file
         }
         public static void ClearConsole()
         {
