@@ -74,7 +74,7 @@ Beyond development, the project also includes:
 
 ### Final Design of the Diagram
 
-### Design Sudo Code
+### Design Step-by-Step
 `
 > Start 0: Output "Hello World!"
 > Start 1: Output a request "Input any value or Q/q to Quit"
@@ -118,5 +118,8 @@ Beyond development, the project also includes:
 > Calculator 16: MultipleInput(option): Output asking to key input anything to continue...
 > 
 >Calculator 17: Loop Back
+
+
+
 `
 

@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj": {}
+    "d:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj": {
+    "d:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj",
+        "projectUniqueName": "d:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj",
         "projectName": "MoreThenHelloWorld",
-        "projectPath": "D:\\Projects\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj",
-        "packagesPath": "C:\\Users\\gramp\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\C-Sharp-Projects\\MoreThenHelloWorld\\obj\\",
+        "projectPath": "d:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\MoreThenHelloWorld.csproj",
+        "packagesPath": "C:\\Users\\Gabri\\.nuget\\packages\\",
+        "outputPath": "d:\\Project\\C-Sharp-Projects\\MoreThenHelloWorld\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gramp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

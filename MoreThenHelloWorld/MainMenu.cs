@@ -12,7 +12,7 @@ namespace MoreThenHelloWorld
             // Output a welcome message and the main menu options.
             Console.WriteLine("Welcome to the Main Menu!");
             Console.WriteLine("1. Calculator App");
-            Console.WriteLine("2. File place holder");
+            Console.WriteLine("2. File App");
             Console.WriteLine("3. Network place holder");
             Console.WriteLine("4. Game place holder");
             Console.WriteLine("Q. Exit");
@@ -31,6 +31,14 @@ namespace MoreThenHelloWorld
                     // Displaying the CalculatorApp.
                     calculatorApp.CalculatorMainMenu();
                     break;
+                case "2":
+                    // This line clears the console screen.
+                    ClearConsole();
+                    var menuFileApp = new MainMenuFileApp();
+                    // Call the CreateFile method to create a file.
+                    // This method is a placeholder for file creation logic.
+                    menuFileApp.Menu();                    
+                    break;
                 case "Q":
                     // print Goodbye! and exit the application.
                     Console.WriteLine("Exiting the application. Goodbye!");
@@ -46,7 +54,7 @@ namespace MoreThenHelloWorld
                     break;
             }
         }
-        private void ClearConsole()
+        private static void ClearConsole()
         {
             // Try to clear the console screen.
             // If an exception occurs, catch it and print the exception message.
